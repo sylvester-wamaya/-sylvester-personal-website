@@ -47,8 +47,10 @@ body {
     font-size: 15px;
 }
 section img {
-    height: 200px;
+    height: 180px;
     position: relative;
+    max-width: 100%;
+    padding-top: 0px;
 
 }
 section {
@@ -58,10 +60,11 @@ section {
     margin-left: 0px;
     margin-right: 0px;
     position: block;
+    padding: 0px;
 
 }
 #ground, #skills{
-    height: 420px;
+    height: 435px;
     display: block;
     width: 49.6%;
     float: left;
@@ -71,6 +74,7 @@ section {
     background-color: azure;
     border-radius: 10px;
     text-align: justify;
+    padding-top: 0px;
 
 }
 #ground{
@@ -81,7 +85,11 @@ section {
 }
 section h1{
     position: absolute;
-    top: 500px;
+    top: 460px;
+    margin-left: 400px;
+    font-size: 50px;
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 section p{
@@ -96,6 +104,10 @@ footer{
    bottom:0px;
    height: 100px;
    width:100%;
-   background:#999;
+   background-color:rgba(0,0,255,0.3);
    text-align: center;
+}
+section h2{
+    text-align: center;
+    font-size: 30px;
 }
