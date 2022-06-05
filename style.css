@@ -23,6 +23,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color:rgba(255,255,0,0.3);
+    height: 1100px;
 }
 #heading {
     top: 150px;
@@ -51,12 +52,12 @@ section img {
 
 }
 section {
-    top: 550px;
     display: block;
     float: left;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    position: block;
 
 }
 #ground, #skills{
@@ -86,4 +87,15 @@ section h1{
 section p{
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    position:absolute;
+    padding-top: 15px;
+    top: 1000px;
+   left:0px;
+   bottom:0px;
+   height: 100px;
+   width:100%;
+   background:#999;
+   text-align: center;
 }
